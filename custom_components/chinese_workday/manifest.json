@@ -1,10 +1,10 @@
 {
   "domain": "chinese_workday",
   "name": "CN_workday",
-  "codeowners": [],
+  "codeowners": [derstood],
   "dependencies": [],
   "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
   "iot_class": "local_polling",
-  "requirements": [],
-  "version": "0.1.0"
+  "requirements": [workalendar convertdate pymeeus lunardate pyluach],
+  "version": "0.6.6"
 }
